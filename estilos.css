@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    background-color: blanchedalmond;
+}
+header{
+    background-color: none;
+    color: black;
+    text-align:center;
+    border: 25px ;
+    padding: 60px;
+    height: 30px;
+    background-color: rgb(19, 177, 177);
+    
+}
+nav{
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: right; 
+    background-image: url('TOP_.jpg') ;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+}
+.menu a{
+    padding: 0.5em 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 0.59cm;
+}
